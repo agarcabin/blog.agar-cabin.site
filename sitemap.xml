@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://agar-cabin.site/mew/</loc>
-    <lastmod>2020-08-18T19:23:08+03:00</lastmod>
+    <loc>https://agar-cabin.site/posts/</loc>
+    <lastmod>2020-09-01T18:49:31+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://agar-cabin.site/posts/</loc>
-    <lastmod>2020-08-18T19:23:08+03:00</lastmod>
+    <loc>https://agar-cabin.site/%D0%BF%D0%B3%D1%81%D0%B2-%D0%BE20-%E5%A4%A7%E4%B8%80-%E8%AF%BE%E7%A8%8B%E8%A1%A8/</loc>
+    <lastmod>2020-09-01T18:49:31+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://agar-cabin.site/</loc>
+    <lastmod>2020-09-01T18:49:31+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://agar-cabin.site/hello-world/</loc>
     <lastmod>2020-08-18T19:23:08+03:00</lastmod>
   </url>
   
@@ -24,82 +29,10 @@
   
   <url>
     <loc>https://agar-cabin.site/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://agar-cabin.site/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://agar-cabin.site/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://agar-cabin.site/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://agar-cabin.site/markdown-syntax-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://agar-cabin.site/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://agar-cabin.site/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://agar-cabin.site/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://agar-cabin.site/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://agar-cabin.site/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://agar-cabin.site/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://agar-cabin.site/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://agar-cabin.site/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://agar-cabin.site/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://agar-cabin.site/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://agar-cabin.site/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
