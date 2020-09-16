@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>琼脂小屋</title>
-    <link>https://agar-cabin.site/</link>
-    <description>Recent content on 琼脂小屋</description>
+    <title>Others on 琼脂小屋</title>
+    <link>https://agar-cabin.site/others/</link>
+    <description>Recent content in Others on 琼脂小屋</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 16 Sep 2020 21:56:50 +0300</lastBuildDate>
     
-	<atom:link href="https://agar-cabin.site/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://agar-cabin.site/others/index.xml" rel="self" type="application/rss+xml" />
     
     
     
