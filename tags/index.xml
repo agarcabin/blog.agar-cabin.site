@@ -12,12 +12,18 @@
     
     
     <item>
-      <title>【信息】ТГВа-о20 课程表</title>
-      <link>https://agar-cabin.site/%E4%BF%A1%E6%81%AF%D1%82%D0%B3%D0%B2%D0%B0-%D0%BE20-%E8%AF%BE%E7%A8%8B%E8%A1%A8/</link>
-      <pubDate>Wed, 16 Sep 2020 21:56:50 +0300</pubDate>
+      <title>【开发】为Anki划词助手适配大БКРС俄语词典</title>
+      <link>https://agar-cabin.site/%E5%BC%80%E5%8F%91%E4%B8%BAanki%E5%88%92%E8%AF%8D%E5%8A%A9%E6%89%8B%E9%80%82%E9%85%8D%E5%A4%A7%D0%B1%D0%BA%D1%80%D1%81%E4%BF%84%E8%AF%AD%E8%AF%8D%E5%85%B8/</link>
+      <pubDate>Sat, 10 Oct 2020 13:36:43 +0300</pubDate>
       
-      <guid>https://agar-cabin.site/%E4%BF%A1%E6%81%AF%D1%82%D0%B3%D0%B2%D0%B0-%D0%BE20-%E8%AF%BE%E7%A8%8B%E8%A1%A8/</guid>
-      <description>Группа 080301-ТГВа-о20</description>
+      <guid>https://agar-cabin.site/%E5%BC%80%E5%8F%91%E4%B8%BAanki%E5%88%92%E8%AF%8D%E5%8A%A9%E6%89%8B%E9%80%82%E9%85%8D%E5%A4%A7%D0%B1%D0%BA%D1%80%D1%81%E4%BF%84%E8%AF%AD%E8%AF%8D%E5%85%B8/</guid>
+      <description>简言 什么是AnkiHelper？AnkiHelper（Anki划词助手）是一款辅助Anki快速制卡的Android APP。
+从网络上搜罗了一圈并没有找到AnkiHelper可用的俄语词典，于是按照AnkiHelper自定义词典示范文件的标准，转制了一个标准格式的大БКРС词典。
+过程 由于大БКРС单词与释意的分隔符号是换行符，所以需要把换行符切换为制表符。
+开始的思路是用Office World中的替换功能，把&amp;quot;^p &amp;ldquo;替换为&amp;quot;^t&amp;rdquo;，由于转换到World以后页数多达2w页导致World卡顿，无法正常使用特殊字符替换功能。
+经群友2905099582帮助，得知试用NotePad++也可以使用特殊字符替换，遂尝试使用Visual Studio Code替换，果然也具备该功能。
+评价 实际上使用情况并不乐观。由于俄语的特殊变格，如若不是单词一格，经常无法从词典中查到该词。加上AnkiHelper本身对俄语的支持并不好，分词时会将每个字母给分隔开。所以很难成为一个优秀的俄语学习APP。希望原作者会在今后的更新中增添对俄语的支持。
+下载 【蓝奏云】</description>
     </item>
     
     
