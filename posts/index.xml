@@ -13,12 +13,17 @@
     
     
     <item>
-      <title>New</title>
-      <link>https://agar-cabin.site/new/</link>
+      <title>【开发】Hugo自动化部署</title>
+      <link>https://agar-cabin.site/%E5%BC%80%E5%8F%91hugo%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/</link>
       <pubDate>Mon, 12 Oct 2020 21:10:24 +0300</pubDate>
       
-      <guid>https://agar-cabin.site/new/</guid>
-      <description></description>
+      <guid>https://agar-cabin.site/%E5%BC%80%E5%8F%91hugo%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/</guid>
+      <description>简言 用Hugo写完文章部署一遍至少需要输入6条命令，随从网络上找到了一键部署的方法。
+步骤   打开自己的Blog目录，在该处新建文件并取名deploy.sh；
+  将以下代码保存到deploy.sh文件：
+  hugo -D cd public git init git remote rm origin git remote add origin `BlogGitHub地址` #链接到你的GitHub博客项目 git add . git commit -m &amp;#34;update&amp;#34; git pull origin master git push -u origin +master  部署时键入.\deploy.sh。
+  等待部署完毕。
+  </description>
     </item>
     
     
