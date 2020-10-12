@@ -6,24 +6,9 @@
     <description>Recent content in Posts on 琼脂小屋</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 12 Oct 2020 21:10:24 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2020 19:28:28 +0300</lastBuildDate>
     
 	<atom:link href="https://agar-cabin.site/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-    <item>
-      <title>【开发】Hugo自动化部署</title>
-      <link>https://agar-cabin.site/%E5%BC%80%E5%8F%91hugo%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/</link>
-      <pubDate>Mon, 12 Oct 2020 21:10:24 +0300</pubDate>
-      
-      <guid>https://agar-cabin.site/%E5%BC%80%E5%8F%91hugo%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/</guid>
-      <description>简言 用Hugo写完文章到部署到GitHub，至少需要键入6条命令，甚是耗时。
-欲想能否更加自动化些，遂从网络上找到了一键部署的方法。
-步骤   打开自己的Blog目录，在该处新建文件并取名deploy.sh；
-  将以下代码保存到deploy.sh文件：
-  echo &amp;#34;=======================================&amp;#34; echo &amp;#34;==========[正在生成Public目录]==========&amp;#34; echo &amp;#34;=======================================&amp;#34; hugo -D #如果不需要输出草稿请删除&amp;#34; -D&amp;#34; cd public git init git remote rm origin git remote add origin `GitHub博客项目地址` #←下一步在此处修改 echo &amp;#34;=======================================&amp;#34; echo &amp;#34;============[正在部署到本地]============&amp;#34; echo &amp;#34;=======================================&amp;#34; git add . git commit -m &amp;#34;update&amp;#34; echo &amp;#34;=======================================&amp;#34; echo &amp;#34;===========[开始上传至GitHub]===========&amp;#34; echo &amp;#34;=======================================&amp;#34; git pull origin master git push -u origin +master echo &amp;#34;=======================================&amp;#34; echo &amp;#34;=============[一键部署结束]=============&amp;#34; echo &amp;#34;=======================================&amp;#34;  将文件中的GitHub博客项目地址改为自己博客的项目地址；</description>
-    </item>
     
     
     
@@ -51,17 +36,6 @@
 经群友2905099582帮助，得知试用NotePad++也可以使用特殊字符替换，遂尝试使用Visual Studio Code替换，果然也具备该功能。
 评价 实际上使用情况并不乐观。由于俄语的特殊变格，如若不是单词一格，经常无法从词典中查到该词。加上AnkiHelper本身对俄语的支持并不好，分词时会将每个字母给分隔开。所以很难成为一个优秀的俄语学习APP。希望原作者会在今后的更新中增添对俄语的支持。
 下载 【蓝奏云】</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>【信息】ТГВа-о20 课程表</title>
-      <link>https://agar-cabin.site/%E4%BF%A1%E6%81%AF%D1%82%D0%B3%D0%B2%D0%B0-%D0%BE20-%E8%AF%BE%E7%A8%8B%E8%A1%A8/</link>
-      <pubDate>Wed, 16 Sep 2020 21:56:50 +0300</pubDate>
-      
-      <guid>https://agar-cabin.site/%E4%BF%A1%E6%81%AF%D1%82%D0%B3%D0%B2%D0%B0-%D0%BE20-%E8%AF%BE%E7%A8%8B%E8%A1%A8/</guid>
-      <description>Группа 080301-ТГВа-о20</description>
     </item>
     
     
