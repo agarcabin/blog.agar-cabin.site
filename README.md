@@ -16,4 +16,8 @@ git remote add origin https://github.com/agarcabin/agar-cabin.site.git
 
 # 推送到远程git
 git push -u origin master
+
+# 自动部署
+.\deploy.sh
+
 ```
