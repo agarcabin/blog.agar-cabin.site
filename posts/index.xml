@@ -6,9 +6,24 @@
     <description>Recent content in Posts on 琼脂小屋</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 12 Oct 2020 19:28:28 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2020 21:10:24 +0300</lastBuildDate>
     
 	<atom:link href="https://agar-cabin.site/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>【开发】Hugo自动化部署</title>
+      <link>https://agar-cabin.site/%E5%BC%80%E5%8F%91hugo%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/</link>
+      <pubDate>Mon, 12 Oct 2020 21:10:24 +0300</pubDate>
+      
+      <guid>https://agar-cabin.site/%E5%BC%80%E5%8F%91hugo%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/</guid>
+      <description>简言 用Hugo写完文章到部署到GitHub，至少需要键入6条命令，甚是耗时。
+欲想能否更加自动化些，遂从网络上找到了一键部署的方法。
+步骤   打开自己的Blog目录，在该处新建文件并取名deploy.sh；
+  将以下代码保存到deploy.sh文件：
+  echo &amp;#34;========================================&amp;#34; echo &amp;#34;==========[正在生成Public目录]==========&amp;#34; echo &amp;#34;========================================&amp;#34; hugo -D #如果不需要输出草稿请删除&amp;#34; -D&amp;#34; cd public git init git remote rm origin git remote add origin `GitHub博客项目地址` #←下一步在此处修改 echo &amp;#34;========================================&amp;#34; echo &amp;#34;============[正在部署到本地]============&amp;#34; echo &amp;#34;========================================&amp;#34; git add . git commit -m &amp;#34;update&amp;#34; echo &amp;#34;========================================&amp;#34; echo &amp;#34;===========[开始上传至GitHub]===========&amp;#34; echo &amp;#34;========================================&amp;#34; git pull origin master #欲删文章时删除本行 git push -u origin +master echo &amp;#34;========================================&amp;#34; echo &amp;#34;=============[一键部署结束]=============&amp;#34; echo &amp;#34;========================================&amp;#34;  将文件中的GitHub博客项目地址改为自己博客的项目地址；</description>
+    </item>
     
     
     
