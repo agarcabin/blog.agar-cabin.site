@@ -45,11 +45,11 @@
 <div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">echo</span> <span class="s2">&#34;=======================================&#34;</span>
 <span class="nb">echo</span> <span class="s2">&#34;==========[正在生成Public目录]==========&#34;</span>
 <span class="nb">echo</span> <span class="s2">&#34;=======================================&#34;</span>
-hugo -D
+hugo -D <span class="c1">#如果不需要输出草稿请删除&#34; -D&#34;</span>
 <span class="nb">cd</span> public 
 git init
 git remote rm origin
-git remote add origin <span class="sb">`</span>GitHub博客项目地址<span class="sb">`</span>
+git remote add origin <span class="sb">`</span>GitHub博客项目地址<span class="sb">`</span> <span class="c1">#←下一步在此处修改</span>
 <span class="nb">echo</span> <span class="s2">&#34;=======================================&#34;</span>
 <span class="nb">echo</span> <span class="s2">&#34;============[正在部署到本地]============&#34;</span>
 <span class="nb">echo</span> <span class="s2">&#34;=======================================&#34;</span>
