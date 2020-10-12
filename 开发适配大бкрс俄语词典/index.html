@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your site description">
+    
+    <link rel="shortcut icon" href="https://agar-cabin.site/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>【开发】适配大БКРС俄语词典</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://agar-cabin.site">琼脂小屋</a></h2>
+    <nav>
+        <ul>
+            
+            <li>
+                <a href="/" title="posts">文章</a>
+            </li>
+            
+            <li>
+                <a href="/about/" title="about">关于</a>
+            </li>
+            
+        </ul>
+    </nav>
+</header>
+<main id="content">
+
+<article>
+    <header id="post-header">
+        <h1>【开发】适配大БКРС俄语词典</h1><time>October 10, 2020</time></header><h2 id="简言">简言</h2>
+<p>什么是<a href="https://github.com/mmjang/ankihelper">AnkiHelper</a>？AnkiHelper（Anki划词助手）是一款辅助<a href="https://apps.ankiweb.net/">Anki</a>快速制卡的Android APP。</p>
+<p>从网络上搜罗了一圈并没有找到AnkiHelper可用的俄语词典，于是按照<a href="https://github.com/mmjang/ankihelper/blob/master/custom_dictionary/collins.txt">AnkiHelper自定义词典示范文件</a>的标准，转制了一个标准格式的<a href="https://bkrs.info/">大БКРС词典</a>。</p>
+<p><img src="https://i.loli.net/2020/10/10/A4cJPRQCgihmtjy.jpg" alt="词典局部截图.jpg"></p>
+<h2 id="过程">过程</h2>
+<p>由于大БКРС单词与释意的分隔符号是换行符，所以需要把换行符切换为制表符。</p>
+<p>开始的思路是用Office World中的替换功能，把&quot;^p &ldquo;替换为&quot;^t&rdquo;，由于转换到World以后页数多达2w页导致World卡顿，无法正常使用特殊字符替换功能。</p>
+<p>经群友2905099582帮助，得知试用NotePad++也可以使用特殊字符替换，遂尝试使用<a href="https://code.visualstudio.com/">Visual Studio Code</a>替换，果然也具备该功能。</p>
+<h2 id="评价">评价</h2>
+<p>实际上使用情况并不乐观。由于俄语的特殊变格，如若不是单词一格，经常无法从词典中查到该词。加上AnkiHelper本身对俄语的支持并不好，分词时会将每个字母给分隔开。所以很难成为一个优秀的俄语学习APP。希望原作者会在今后的更新中增添对俄语的支持。</p>
+<p><img src="https://i.loli.net/2020/10/10/9RadFeVOzLhMGKW.jpg" alt="使用截图.png"></p>
+<h2 id="下载">下载</h2>
+<p><a href="https://agar-cabin.lanzous.com/igFDwhbknef">【蓝奏云】</a></p>
+</article>
+
+
+
+  <div class="post-comment">
+    
+      
+  
+  <span id="/%E5%BC%80%E5%8F%91%E9%80%82%E9%85%8D%E5%A4%A7%D0%B1%D0%BA%D1%80%D1%81%E4%BF%84%E8%AF%AD%E8%AF%8D%E5%85%B8/" class="leancloud_visitors" data-flag-title="【开发】适配大БКРС俄语词典">
+
+    <p></p>
+  </span>
+
+  <div id="vcomments"></div>
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script type="text/javascript">
+    new Valine({
+        el: '#vcomments' ,
+        appId: 'SiOSu3FI0LyktJnB3exVkftm-gzGzoHsz',
+        appKey: 'AAIY2KHbDi5YyGVT9vKsJ3IF',
+        notify:  false , 
+        verify:  false , 
+        avatar:'hide', 
+        placeholder: 'Just say something..',
+        visitor:  true 
+    });
+    
+  </script>
+</div>
+
+
+        </main><footer id="footer">
+    Copyright © 2020 AgarCabin 琼脂菌
+</footer>
+</body>
+</html>
