@@ -31,7 +31,8 @@
 <article>
     <header id="post-header">
         <h1>【开发】Hugo自动化部署</h1><time>October 12, 2020</time></header><h2 id="简言">简言</h2>
-<p>用Hugo写完文章部署一遍至少需要输入6条命令，随从网络上找到了一键部署的方法。</p>
+<p>用Hugo写完文章到部署到GitHub，至少需要键入6条命令，甚是耗时。</p>
+<p>欲想能否更加自动化些，遂从网络上找到了一键部署的方法。</p>
 <h2 id="步骤">步骤</h2>
 <ol>
 <li>
@@ -49,7 +50,7 @@ git init
 
 git remote rm origin
 
-git remote add origin <span class="sb">`</span>BlogGitHub地址<span class="sb">`</span> <span class="c1">#链接到你的GitHub博客项目</span>
+git remote add origin <span class="sb">`</span>GitHub博客项目地址<span class="sb">`</span>
 
 git add .
 
@@ -61,12 +62,17 @@ git push -u origin +master
 
 </code></pre></div><ol start="3">
 <li>
-<p>部署时键入<code>.\deploy.sh</code>。</p>
+<p>将文件中的<code>GitHub博客项目地址</code>改为自己博客的项目地址；</p>
+</li>
+<li>
+<p>部署时键入<code>.\deploy.sh</code>；</p>
 </li>
 <li>
 <p>等待部署完毕。</p>
 </li>
 </ol>
+<h2 id="其他">其他</h2>
+<p><a href="https://www.cnblogs.com/billie52707/p/13486133.html">参考资料</a></p>
 </article>
 
 
