@@ -17,8 +17,8 @@
       <pubDate>Fri, 23 Oct 2020 20:58:34 +0300</pubDate>
       
       <guid>https://agar-cabin.site/%E5%BC%80%E5%8F%91%E9%80%9F%E5%8D%96%E9%80%9A%E6%8F%92%E4%BB%B6aia/</guid>
-      <description>简言 本文章持续更新。
-安装   安装Chrome或者Microsoft Edge浏览器；
+      <description>简言: 本文章持续更新。
+安装:   安装Chrome或者Microsoft Edge浏览器；
   下载并安装Auto Clicker - AutoFil插件；
   在下文目录找到最新版的AliExpress Intelligent Assistant下载，解压并导入AutoFil；
   打开购物网页进行测试。
@@ -38,9 +38,9 @@ log：  新增 - 登入页面加载完毕后，自动点击注册按钮； 新�
       <pubDate>Mon, 12 Oct 2020 21:10:24 +0300</pubDate>
       
       <guid>https://agar-cabin.site/%E5%BC%80%E5%8F%91hugo%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/</guid>
-      <description>简言 用Hugo写完文章到部署到GitHub，至少需要键入6条命令，甚是耗时。
+      <description>简言: 用Hugo写完文章到部署到GitHub，至少需要键入6条命令，甚是耗时。
 欲想能否更加自动化些，遂从网络上找到了一键部署的方法。
-步骤   打开自己的Blog目录，在该处新建文件并取名deploy.sh；
+步骤:   打开自己的Blog目录，在该处新建文件并取名deploy.sh；
   将以下代码保存到deploy.sh文件：
   echo &amp;#34;========================================&amp;#34; echo &amp;#34;==========[正在生成Public目录]==========&amp;#34; echo &amp;#34;========================================&amp;#34; hugo -D #如果不需要输出草稿请删除&amp;#34; -D&amp;#34; cd public git init git remote rm origin git remote add origin `GitHub博客项目地址` #←下一步在此处修改 echo &amp;#34;========================================&amp;#34; echo &amp;#34;============[正在部署到本地]============&amp;#34; echo &amp;#34;========================================&amp;#34; git add . git commit -m &amp;#34;update&amp;#34; echo &amp;#34;========================================&amp;#34; echo &amp;#34;===========[开始上传至GitHub]===========&amp;#34; echo &amp;#34;========================================&amp;#34; git pull origin master #欲删文章时删除本行 git push -u origin +master echo &amp;#34;========================================&amp;#34; echo &amp;#34;=============[一键部署结束]=============&amp;#34; echo &amp;#34;========================================&amp;#34;  将文件中的GitHub博客项目地址改为自己博客的项目地址；</description>
     </item>
@@ -70,7 +70,7 @@ log：  新增 - 登入页面加载完毕后，自动点击注册按钮； 新�
       <pubDate>Tue, 15 Sep 2020 17:46:00 +0300</pubDate>
       
       <guid>https://agar-cabin.site/%E5%BC%80%E5%8F%91%E7%AE%80%E6%98%93%E5%88%B7%E5%8D%95%E8%BE%85%E5%8A%A9%E7%A8%8B%E5%BA%8F/</guid>
-      <description>简言 本文章持续更新。
+      <description>简言: 本文章持续更新。
 目录： V1.5（2020.10.17） |
 V1.4（2020.10.14） | V1.3（2020.10.08）
 V1.2（2020.10.05） | V1.1（2020.10.03）
