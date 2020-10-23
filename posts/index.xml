@@ -6,9 +6,30 @@
     <description>Recent content in Posts on 琼脂小屋</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 12 Oct 2020 21:10:24 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2020 20:58:34 +0300</lastBuildDate>
     
 	<atom:link href="https://agar-cabin.site/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>【开发】速卖通插件AIA</title>
+      <link>https://agar-cabin.site/%E5%BC%80%E5%8F%91%E9%80%9F%E5%8D%96%E9%80%9A%E6%8F%92%E4%BB%B6aia/</link>
+      <pubDate>Fri, 23 Oct 2020 20:58:34 +0300</pubDate>
+      
+      <guid>https://agar-cabin.site/%E5%BC%80%E5%8F%91%E9%80%9F%E5%8D%96%E9%80%9A%E6%8F%92%E4%BB%B6aia/</guid>
+      <description>简言 本文章持续更新。
+安装   安装Chrome或者Microsoft Edge浏览器；
+  下载并安装Auto Clicker - AutoFil插件；
+  在下文目录找到最新版的AliExpress Intelligent Assistant下载，解压并导入AutoFil；
+  打开购物网页进行测试。
+  目录： 
+V0.1（2020.10.23）
+ | 2020年10月23日发布 
+Name： AliExpress Intelligent Assistant V0.1
+log：  新增 - 登入页面加载完毕后，自动点击注册按钮； 新增 - 注册面板弹出后，用户名编辑框将获得焦点； 新增 - 购物页面加载完毕后，自动执行以下动作：关注店铺，切换币种为RUB卢布，选择发货地址为中国（为了后续选择物流），选择发货物流为Epacket。  Download： 【蓝奏云】
+源码： [ { &amp;#34;url&amp;#34;:&amp;#34;https://sale.aliexpress.com/__pc/referral_register_success.htm?invitationCode=&amp;#34;, &amp;#34;enable&amp;#34;:true, &amp;#34;actions&amp;#34;: [ { &amp;#34;initWait&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;xpath&amp;#34;:&amp;#34;//*[@id=\&amp;#34;search-key\&amp;#34;]&amp;#34;, &amp;#34;value&amp;#34;:&amp;#34;start&amp;#34;, &amp;#34;repeat&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;repeatInterval&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;addon&amp;#34;:{ &amp;#34;xpath&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;value&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;condition&amp;#34;:&amp;#34;&amp;#34;}, &amp;#34;name&amp;#34;:&amp;#34;start&amp;#34; }, { &amp;#34;initWait&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;xpath&amp;#34;:&amp;#34;html/body/div[4]/div[1]/div[3]&amp;#34;, &amp;#34;value&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;repeat&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;repeatInterval&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;addon&amp;#34;:{ &amp;#34;xpath&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;value&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;condition&amp;#34;:&amp;#34;&amp;#34;}, &amp;#34;name&amp;#34;:&amp;#34;click Login&amp;#34; }, { &amp;#34;initWait&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;xpath&amp;#34;:&amp;#34;//*[@id=\&amp;#34;batman-tabbed\&amp;#34;]/ul[1]/li[1]&amp;#34;, &amp;#34;value&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;repeat&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;repeatInterval&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;addon&amp;#34;:{ &amp;#34;xpath&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;value&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;condition&amp;#34;:&amp;#34;&amp;#34;}, &amp;#34;name&amp;#34;:&amp;#34;click Registration&amp;#34; }, { &amp;#34;initWait&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;xpath&amp;#34;:&amp;#34;//*[@id=\&amp;#34;ws-xman-register-email\&amp;#34;]&amp;#34;, &amp;#34;value&amp;#34;:&amp;#34; &amp;#34;, &amp;#34;repeat&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;repeatInterval&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;addon&amp;#34;:{ &amp;#34;xpath&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;value&amp;#34;:&amp;#34;&amp;#34;, &amp;#34;condition&amp;#34;:&amp;#34;&amp;#34;}, &amp;#34;name&amp;#34;:&amp;#34;click email&amp;#34; } ], &amp;#34;name&amp;#34;:&amp;#34;AliExpress Intelligent Assistant-Start&amp;#34; }, { &amp;#34;enable&amp;#34;:true, &amp;#34;url&amp;#34;:&amp;#34;https://www.</description>
+    </item>
     
     
     
