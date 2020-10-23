@@ -8,7 +8,7 @@
     
     <link rel="stylesheet" href="/css/style.min.css">
 
-    <title>【开发】速卖通插件AIA</title>
+    <title>About</title>
 </head>
 <body><header id="banner">
     <h2><a href="https://agar-cabin.site">琼脂小屋</a></h2>
@@ -30,246 +30,23 @@
 
 <article>
     <header id="post-header">
-        <h1>【开发】速卖通插件AIA</h1><time>October 23, 2020</time></header><h2 id="简言">简言</h2>
-<p>本文章持续更新。</p>
-<h2 id="安装">安装</h2>
-<ol>
-<li>
-<p>安装<a href="https://www.google.com/intl/zh-CN/chrome/">Chrome</a>或者<a href="https://www.microsoft.com/zh-cn/edge">Microsoft Edge</a>浏览器；</p>
-</li>
-<li>
-<p>下载并安装<a href="https://chrome.google.com/webstore/detail/auto-clicker-autofill/iapifmceeokikomajpccajhjpacjmibe">Auto Clicker - AutoFil</a>插件；</p>
-</li>
-<li>
-<p>在下文目录找到最新版的<a href="#0.0">AliExpress Intelligent Assistant</a>下载，解压并导入AutoFil；</p>
-<p><img src="https://i.loli.net/2020/10/24/osgMKTePpUdEw6n.png" alt="image-20201023204429119"></p>
-</li>
-<li>
-<p>打开购物网页进行测试。</p>
-</li>
-</ol>
-<p><span id = "0.0"></span></p>
-<h2 id="目录">目录：</h2>
-<p><a href="#0.1">V0.1（2020.10.23）</a></p>
+        <h1>About</h1><time>August 18, 2020</time></header><h2 id="信息">信息</h2>
+<p>This is some info about me.</p>
+<p>Alright in fact here havent anything LOL. 👻</p>
 <hr>
-<h2 id="font-color548687-2020年10月23日发布font"><font color=#548687>| 2020年10月23日发布</font></h2>
-<p><span id = "0.1"></span></p>
-<h3 id="name">Name：</h3>
-<p>AliExpress Intelligent Assistant V0.1</p>
-<h3 id="log">log：</h3>
-<ul>
-<li>新增 - 登入页面加载完毕后，自动点击注册按钮；</li>
-<li>新增 - 注册面板弹出后，用户名编辑框将获得焦点；</li>
-<li>新增 - 购物页面加载完毕后，自动执行以下动作：关注店铺，切换币种为RUB卢布，选择发货地址为中国（为了后续选择物流），选择发货物流为Epacket。</li>
-</ul>
-<h3 id="download">Download：</h3>
-<p><a href="https://agar-cabin.lanzous.com/izbGohormlg">【蓝奏云】</a></p>
-<h3 id="源码">源码：</h3>
-<div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">[</span>
-<span class="p">{</span>
-<span class="nt">&#34;url&#34;</span><span class="p">:</span><span class="s2">&#34;https://sale.aliexpress.com/__pc/referral_register_success.htm?invitationCode=&#34;</span><span class="p">,</span>
-<span class="nt">&#34;enable&#34;</span><span class="p">:</span><span class="kc">true</span><span class="p">,</span>
-<span class="nt">&#34;actions&#34;</span><span class="p">:</span>
-<span class="p">[</span>
-	<span class="p">{</span>
-	<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;//*[@id=\&#34;search-key\&#34;]&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;start&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;addon&#34;</span><span class="p">:{</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;condition&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">},</span>
-	<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;start&#34;</span>
-	<span class="p">},</span>
-	<span class="p">{</span>
-	<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;html/body/div[4]/div[1]/div[3]&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;addon&#34;</span><span class="p">:{</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;condition&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">},</span>
-	<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;click Login&#34;</span>
-	<span class="p">},</span>
-	<span class="p">{</span>
-	<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;//*[@id=\&#34;batman-tabbed\&#34;]/ul[1]/li[1]&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;addon&#34;</span><span class="p">:{</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;condition&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">},</span>
-	<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;click Registration&#34;</span>
-	<span class="p">},</span>
-	<span class="p">{</span>
-	<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;//*[@id=\&#34;ws-xman-register-email\&#34;]&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34; &#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;addon&#34;</span><span class="p">:{</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;condition&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">},</span>
-	<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;click email&#34;</span>
-	<span class="p">}</span>
-<span class="p">],</span>
-<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;AliExpress Intelligent Assistant-Start&#34;</span>
-<span class="p">},</span>
-
-<span class="p">{</span>
-<span class="nt">&#34;enable&#34;</span><span class="p">:</span><span class="kc">true</span><span class="p">,</span>
-<span class="nt">&#34;url&#34;</span><span class="p">:</span><span class="s2">&#34;https://www.aliexpress.com/item/&#34;</span><span class="p">,</span>
-<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;AliExpress Intelligent Assistant-Buying&#34;</span><span class="p">,</span>
-<span class="nt">&#34;refresh&#34;</span><span class="p">:</span><span class="kc">false</span><span class="p">,</span>
-<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-<span class="nt">&#34;startTime&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-<span class="nt">&#34;actions&#34;</span><span class="p">:</span>
-<span class="p">[</span>
-	<span class="p">{</span>
-	<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;//input[@class=\&#34;search-key\&#34;]&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;Start&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;addon&#34;</span><span class="p">:{</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;condition&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">},</span>
-	<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;start&#34;</span>
-	<span class="p">},</span>
-	<span class="p">{</span>
-	<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;//*[@id=\&#34;root\&#34;]/div[1]/div[2]/div[1]/div[2]/div[7]/div[1]/div[1]/ul[1]/li[1]/div[1]/span[1]&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;addon&#34;</span><span class="p">:{</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;condition&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">},</span>
-	<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;wuliu_click Chinese&#34;</span>
-	<span class="p">},</span>
-	<span class="p">{</span>
-	<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;//*[@class=\&#34;product-shipping-info black-link\&#34;]&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;addon&#34;</span><span class="p">:{</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;condition&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">},</span>
-	<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;wuliu_open wuliu&#34;</span>
-	<span class="p">},</span>
-	<span class="p">{</span>
-	<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;//*[@class=\&#34;logistics-logo logo-ems_zx_zx_us\&#34;]&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;addon&#34;</span><span class="p">:{</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;condition&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">},</span>
-	<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;wuliu_choose epacket&#34;</span>
-	<span class="p">},</span>
-	<span class="p">{</span>
-	<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;html/body/div[13]/div[2]/div[1]/div[2]/button[1]&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;addon&#34;</span><span class="p">:{</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;condition&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">},</span>
-	<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;wuliu_click sure&#34;</span>
-	<span class="p">},</span>
-	<span class="p">{</span>
-	<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;//*[@class=\&#34;text-btn follow\&#34;]&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;addon&#34;</span><span class="p">:{</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;condition&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">},</span>
-	<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;follow&#34;</span>
-	<span class="p">},</span>
-	<span class="p">{</span>
-	<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;//*[@id=\&#34;switcher-info\&#34;]/span[3]&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;addon&#34;</span><span class="p">:{</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;condition&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">},</span>
-	<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;currency_open currency&#34;</span>
-	<span class="p">},</span>
-	<span class="p">{</span>
-	<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;//*[@id=\&#34;nav-global\&#34;]/div[4]/div[1]/div[1]/div[1]/div[3]/div[1]/span[1]&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;addon&#34;</span><span class="p">:{</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;condition&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">},</span>
-	<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;currency_country choose&#34;</span>
-	<span class="p">},</span>
-	<span class="p">{</span>
-	<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;//*[@id=\&#34;nav-global\&#34;]/div[4]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/input[1]&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;Russian&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;addon&#34;</span><span class="p">:{</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;condition&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">},</span>
-	<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;currency_puting russian&#34;</span>
-	<span class="p">},</span>
-	<span class="p">{</span>
-	<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;//*[@id=\&#34;nav-global\&#34;]/div[4]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[54]/a[1]/em[1]&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;addon&#34;</span><span class="p">:{</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;condition&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">},</span>
-	<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;currency_choose russian&#34;</span>
-	<span class="p">},</span>
-	<span class="p">{</span>
-	<span class="nt">&#34;initWait&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;//*[@id=\&#34;nav-global\&#34;]/div[4]/div[1]/div[1]/div[1]/div[4]/button[1]&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeat&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;addon&#34;</span><span class="p">:{</span>
-	<span class="nt">&#34;xpath&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;value&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">,</span>
-	<span class="nt">&#34;condition&#34;</span><span class="p">:</span><span class="s2">&#34;&#34;</span><span class="p">},</span>
-	<span class="nt">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;currency_sure&#34;</span>
-	<span class="p">}</span>
-<span class="p">]</span>
-<span class="p">}</span>
-<span class="p">]</span>
-</code></pre></div></article>
+<h2 id="驱动">驱动</h2>
+<p>Framework by <a href="https://hexo.io/">Hexo</a> v0.74.3</p>
+<p>Theme by <a href="https://themes.gohugo.io/theme/etch/">Etch</a> v0.41</p>
+<p>Blog by <a href="https://agar-cabin.site/">琼脂菌</a></p>
+<hr>
+<h2 id="联系方式">联系方式</h2>
+<p>QQ：907186650</p>
+<p>WX：IvanTszan</p>
+<p>E-mail：<a href="mailto:IvanTszan@qq.com">IvanTszan@qq.com</a></p>
+<hr>
+<h2 id="开发者入口">开发者入口</h2>
+<p><a href="https://github.com/login">GitHub</a> | <a href="https://leancloud.cn/dashboard/login.html#/signin">Valine</a> | <a href="https://sm.ms/">SM.MS</a> | <a href="https://agar-cabin.site/test/">Test</a> | <a href="https://pc.woozooo.com/">蓝奏云</a></p>
+</article>
 
 
 
@@ -277,7 +54,7 @@
     
       
   
-  <span id="/about/" class="leancloud_visitors" data-flag-title="【开发】速卖通插件AIA">
+  <span id="/about/" class="leancloud_visitors" data-flag-title="About">
 
     <p></p>
   </span>
