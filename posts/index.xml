@@ -19,12 +19,8 @@
       
       <guid>https://agar-cabin.site/%E5%BC%80%E5%8F%91%E9%80%9F%E5%8D%96%E9%80%9A%E6%8F%92%E4%BB%B6aia/</guid>
       <description>简言 本文章持续更新。
-安装   安装Chrome或者Microsoft Edge浏览器；
-  下载并安装Auto Clicker - AutoFil插件；
-  在下文目录找到最新版的AliExpress Intelligent Assistant下载，解压并导入AutoFil；
-  打开购物网页进行测试。
-  
 目录： V0.1（2020.10.23）
+安装
  | 2020年10月23日发布 
 Name： AliExpress Intelligent Assistant V0.1
 log：  新增 - 登入页面加载完毕后，自动点击注册按钮； 新增 - 注册面板弹出后，用户名编辑框将获得焦点； 新增 - 购物页面加载完毕后，自动执行以下动作：关注店铺，切换币种为RUB卢布，选择发货地址为中国（为了后续选择物流），选择发货物流为Epacket。  Download： 【蓝奏云】
