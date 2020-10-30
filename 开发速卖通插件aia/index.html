@@ -33,20 +33,33 @@
         <h1>【开发】速卖通插件AIA</h1><time>October 23, 2020</time></header><h2 id="简言">简言</h2>
 <p>本文章持续更新。</p>
 <h2 id="目录">目录：</h2>
+<p><a href="#0.2">V0.2（2020.10.30）</a></p>
 <p><a href="#0.1">V0.1（2020.10.23）</a></p>
-<p><a href="#0.0">安装教程（2020.10.23）</a></p>
+<p><a href="#%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B">安装教程（2020.10.23）</a></p>
+<hr>
+<h2 id="font-color548687-2020年10月30日发布font"><font color=#548687>| 2020年10月30日发布</font></h2>
+<p><span id = "0.2"></span></p>
+<h3 id="name">Name：</h3>
+<p>AliExpress Intelligent Assistant V0.2</p>
+<h3 id="log">log：</h3>
+<ul>
+<li>新增 - 支付界面获取焦点；</li>
+<li>修复 - 物流面板关闭失效的BUG。</li>
+</ul>
+<h3 id="download">Download：</h3>
+<p><a href="https://agar-cabin.lanzous.com/iOUtghw6ekj">【蓝奏云】</a></p>
 <hr>
 <h2 id="font-color548687-2020年10月23日发布font"><font color=#548687>| 2020年10月23日发布</font></h2>
 <p><span id = "0.1"></span></p>
-<h3 id="name">Name：</h3>
+<h3 id="name-1">Name：</h3>
 <p>AliExpress Intelligent Assistant V0.1</p>
-<h3 id="log">log：</h3>
+<h3 id="log-1">log：</h3>
 <ul>
 <li>新增 - 登入页面加载完毕后，自动点击注册按钮；</li>
 <li>新增 - 注册面板弹出后，用户名编辑框将获得焦点；</li>
 <li>新增 - 购物页面加载完毕后，自动执行以下动作：关注店铺，切换币种为RUB卢布，选择发货地址为中国（为了后续选择物流），选择发货物流为Epacket。</li>
 </ul>
-<h3 id="download">Download：</h3>
+<h3 id="download-1">Download：</h3>
 <p><a href="https://agar-cabin.lanzous.com/izbGohormlg">【蓝奏云】</a></p>
 <h3 id="源码">源码：</h3>
 <div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">[</span>
@@ -254,7 +267,7 @@
 <span class="p">}</span>
 <span class="p">]</span>
 </code></pre></div><hr>
-<p><span id = "0.0"></span></p>
+<p><span id = "安装教程"></span></p>
 <h2 id="安装">安装</h2>
 <ol>
 <li>
@@ -264,7 +277,7 @@
 <p>下载并安装<a href="https://chrome.google.com/webstore/detail/auto-clicker-autofill/iapifmceeokikomajpccajhjpacjmibe">Auto Clicker - AutoFil</a>插件；</p>
 </li>
 <li>
-<p>在目录找到最新版的[AliExpress Intelligent Assistant](# 目录)下载，解压并导入AutoFil；</p>
+<p>在目录找到最新版的[AliExpress Intelligent Assistant](# 目录：)下载，解压并导入AutoFil；</p>
 </li>
 </ol>
 <p><img src="https://i.loli.net/2020/10/24/osgMKTePpUdEw6n.png" alt="image-20201023204429119"></p>
@@ -279,6 +292,53 @@
 <ol start="6">
 <li>打开购物网页进行测试。</li>
 </ol>
+<hr>
+<p><span id = "使用说明"></span></p>
+<h2 id="说明">说明</h2>
+<p>若部分功能不想使用，可参照以下说明自行删除关闭。</p>
+<ol>
+<li>页面分类</li>
+</ol>
+<p><img src="https://i.loli.net/2020/10/30/Zua4PfpRz7txIoW.png" alt="image-20201030173759542"></p>
+<ul>
+<li>AliExpress Intelligent Assistant-Start - 注册页面</li>
+<li>AliExpress Intelligent Assistant-Buying - 购物页面</li>
+<li>AliExpress Intelligent Assistant-Pay - 支付页面</li>
+</ul>
+<ol start="2">
+<li>注册页面</li>
+</ol>
+<p><img src="C:%5CUsers%5Czengq%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20201030174051386.png" alt="image-20201030174051386"></p>
+<ul>
+<li>start - 编辑框键入start证明脚本注入成功；</li>
+<li>click Login - 点击登录按钮；</li>
+<li>click Registration - 选择登入标签；</li>
+<li>click email - 邮编编辑框获得焦点。</li>
+</ul>
+<ol start="3">
+<li>
+<p>购物页面</p>
+<p><img src="https://i.loli.net/2020/10/30/BbEHA3uG8qTl9L6.png" alt="image-20201030174442007"></p>
+</li>
+</ol>
+<ul>
+<li>start - 编辑框键入start证明脚本注入成功；</li>
+<li>wuliu_click Chinese - 选择中国地址发货；</li>
+<li>wuliu_open wuliu - 点击选择物流；</li>
+<li>wuliu_choose epacket - 选择epacket物流；</li>
+<li>wuliu_click sure - 关闭物流面板；</li>
+<li>follow - 点击关注店铺；</li>
+<li>currency_open currency - 打开币种面板；</li>
+<li>currency_country choose - 点击币种选择；</li>
+<li>currency_puting russian - 键入russian；</li>
+<li>currency_choose russian - 选择卢布；</li>
+<li>currency_sure - 关闭币种面板。</li>
+</ul>
+<ol start="4">
+<li>支付页面 （10.30添加）</li>
+</ol>
+<p><img src="https://i.loli.net/2020/10/30/7H6A5hbiTPZQlWS.png" alt="image-20201030175027205"></p>
+<p>*-0 - 第一个编辑框获得焦点。</p>
 </article>
 
 
